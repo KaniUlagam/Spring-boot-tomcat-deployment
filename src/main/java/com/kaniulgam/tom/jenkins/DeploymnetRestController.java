@@ -10,7 +10,7 @@ public class DeploymnetRestController {
 	@GetMapping("/welcome/{name}")
 	public String message(@PathVariable("name")String name)
 	{
-		return name =",welcome to Kani Ulagam";
+		return name +",welcome to Kani Ulagam";
 		
 	}
 }
